@@ -1,6 +1,25 @@
-    .giftostyle {
-        position: absolute;
-        top: 20%;
-        left: 20%;
-        color: white;
+body {
+    /* background-image: '95427956-2e8b-495b-a705-7b60fc7915b3.jpg';
+    background-size: cover;
+    background-position: center; */
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+button {
+    display: flex;
+    background: rgb(5, 182, 182);
+    border: none;
+    color: rgb(88, 88, 88);
+    height: 15px;
+    margin: 5px;
+    min-width: 20px;
+    font-size: 13px;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 3px;
+}    
